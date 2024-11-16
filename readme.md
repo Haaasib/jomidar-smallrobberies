@@ -1,4 +1,5 @@
 qb-core/shared/items.lua
+```
      ['parcel'] = {
         name = 'parcel',
         label = 'Parcel',
@@ -50,7 +51,7 @@ qb-core/shared/items.lua
         combinable = nil,
         description = 'Normal Shoe Box'
     },
-
+```
 ---- check imagaes for item icons
 
 Script Supports =
