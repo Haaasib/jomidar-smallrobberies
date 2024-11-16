@@ -1,7 +1,7 @@
-** Preview
+# Preview
 https://www.youtube.com/watch?v=qYply38uhXk
 
-qb-core/shared/items.lua
+-- qb-core/shared/items.lua
 ```
      ['parcel'] = {
         name = 'parcel',
@@ -55,12 +55,15 @@ qb-core/shared/items.lua
         description = 'Normal Shoe Box'
     },
 ```
----- check imagaes for item icons
+-- check imagaes for item icons
 
-Script Supports =
+* [QBCORE](https://github.com/qbcore-framework/)
 
-Interact 
+# Credits
+* [Hasib](https://github.com/Haaasib/) - Creator
+* [QBCore Devs](https://github.com/qbcore-framework/) - For making an awesome framework and enabling me to do this.
+* QBCore Community - Thank you so much for everyone who's been testing this!
 
-qb-Target
+# If You want to report bugs and want support Join Our Discord Server 
+https://discord.com/invite/T7du2nJfyN
 
-ox-target
