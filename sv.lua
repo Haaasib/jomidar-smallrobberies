@@ -56,26 +56,20 @@ end)
 RegisterNetEvent('jomidar:srobbery:removeItem', function(item, ammount)
     local src = source
     local Player = Jomidar.Functions.GetPlayer(src)
-    if Player then
     Player.Functions.RemoveItem(item, ammount)
-    TriggerClientEvent('inventory:client:ItemBox', src, Jomidar.Shared.Items[item], "remove")
-    end
 end)
 
 RegisterNetEvent('jomidar:srobbery:addItem', function(item, ammount)
     local src = source
     local Player = Jomidar.Functions.GetPlayer(src)
-    if Player then
     Player.Functions.AddItem(item, ammount)
-    TriggerClientEvent('inventory:client:ItemBox', src, Jomidar.Shared.Items[item], "add")
-    end
 end)
 
-RegisterNetEvent('jomidar:srobbery:addmoney', function(amount)
-    local src = source
-    local Player = Jomidar.Functions.GetPlayer(src)
-    if Player then
-    Player.Functions.AddMoney('cash', J0.Ammount, 'jomidar-addmoney')
-    TriggerClientEvent('QBCore:Notify', src, "Great Job You Got"..amount.."$", "success")
-    end
-end)
+-- RegisterNetEvent('jomidar:srobbery:addmoney', function(amount)
+--     local src = source
+--     local Player = Jomidar.Functions.GetPlayer(src)
+--     if Player then
+--     Player.Functions.AddMoney('cash', J0.Ammount, 'jomidar-addmoney')
+--     TriggerClientEvent('QBCore:Notify', src, "Great Job You Got"..amount.."$", "success")
+--     end
+-- end)
